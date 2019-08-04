@@ -7,7 +7,7 @@ green="\e[1;32m"
 red="\e[1;31m"
 undim="\e[0m"
 
-services=("home-assistant@homeassistant")
+services=("home-assistant@homeassistant" "mosquitto")
 # sort services
 IFS=$'\n' services=($(sort <<<"${services[*]}"))
 unset IFS
